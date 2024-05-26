@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: s3-image-uploader-app
+  servlet:
+    multipart:
+      max-request-size: 10MB
+      max-file-size: 10MB
